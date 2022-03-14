@@ -9,7 +9,7 @@ public class PageObjectManager {
         this.driver = driver;
     }
 
-    public GreenCartPageObjects grtGreenCartPageObjects() {
-        return new GreenCartPageObjects(driver);
+    public CurrencyConversionPageObjects getCurrencyConversionPageObjects() {
+        return new CurrencyConversionPageObjects(driver);
     }
 }
