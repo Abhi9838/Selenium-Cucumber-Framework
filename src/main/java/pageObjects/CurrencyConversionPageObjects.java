@@ -9,7 +9,7 @@ public class CurrencyConversionPageObjects {
     WebDriver driver;
 
     @FindBy(xpath = "//label[text()='Amount']/parent::div/div/span/input") WebElement lblAmount;
-    @FindBy(xpath = "//button[text()='Conver']") WebElement btnConvert;
+    @FindBy(xpath = "//button[text()='Convert']") WebElement btnConvert;
 
     public CurrencyConversionPageObjects(WebDriver driver){
        this.driver = driver;
